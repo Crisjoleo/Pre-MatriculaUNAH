@@ -1,0 +1,28 @@
+class Asignatura {
+
+  var $codigoAsignatura;
+  var $observaciones;
+  
+
+
+  function Asignatura($codigoAsignatura, $observaciones) {
+  
+    $this->codigoAsignatura = codigoAsignatura;
+    $this->observaciones = observaciones;
+    $this-> = ;
+  }
+  function  getcodigoAsignatura() {
+    return $this->codigoAsignatura;
+  }
+  function  setcodigoAsignatura(int codigoAsignatura) {
+    $this->codigoAsignatura = codigoAsignatura;
+  }
+  function  getobservaciones() {
+    return $this->observaciones;
+  }
+  function  setobservaciones(int observaciones) {
+    $this->observaciones = observaciones;
+  }
+
+  
+  }

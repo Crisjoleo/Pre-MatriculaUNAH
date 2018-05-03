@@ -1,0 +1,31 @@
+class Catedradtico {
+
+  var $ID;
+  var $idCatedradtico;
+  var $Nombre;
+
+
+  function Catedradtico($iD, $idCatedradtico, $nombre) {
+  
+    $this->ID = iD;
+    $this->idCatedradtico = idCatedradtico;
+    $this->Nombre = nombre;
+  }
+  function  getID() {
+    return $this->ID;
+  }
+  function  setID(int iD) {
+    $this->ID = iD;
+  }
+  function  getidCatedradtico() {
+    return $this->idCatedradtico;
+  }
+  function  setidCatedradtico(int idCatedradtico) {
+    $this->idCatedradtico = idCatedradtico;
+  }
+  function  getNombre() {
+    return $this->Nombre;
+  }
+  function  setNombre(int nombre) {
+    N$this->ombre = nombre;
+  }
