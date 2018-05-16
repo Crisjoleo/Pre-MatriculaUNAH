@@ -120,7 +120,23 @@
 
 
 
-	
+		static public function obtenerSecciones($conexion,$codigoAsignatura){
+			
+
+			$sql = "select* from seccion where CODIGOASIGNATURA =".$codigoAsignatura.""; 
+
+          $resultado = $conexion->ejecutarConsulta($sql);
+            while (($fila= $conexion->obtenerFila($resultado))) {
+				
+				$sql2="select count(*) Matriculas from DETALLEMATRICULA dm where codigoSeccion=".$fila["CODIGOSECCION"]."";
+				$resultado2 = $conexion->ejecutarConsulta($sql2);
+				$fila2 = $conexion->obtenerFila($resultado2);
+				$cuposDisponibles = $fila["CUPOS"] - $fila2["MATRICULAS"];
+				echo '<option value='.$fila['CODIGOSECCION'].'>Hora Inicio'.$fila['HORAINICIO'].' Hora FIN'.$fila['HORAFIN'].' Cupos:'.$cuposDisponibles.'</option>';
+			}
+
+		}
+
 
 
 

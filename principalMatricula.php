@@ -24,6 +24,7 @@ if(!(isset($_SESSION["PNOMBRE"])))
     <title>Login Catedrático - UNAH</title>
     <link rel="icon" href="img/imgunah/logo.png" sizes="24x24" type="image/svg">
 
+
   <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css"> 
@@ -34,6 +35,11 @@ if(!(isset($_SESSION["PNOMBRE"])))
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <script src="js/misFunciones.js"></script>
 
   </head>
 
@@ -135,7 +141,30 @@ if(!(isset($_SESSION["PNOMBRE"])))
     </div>
   </div></div>
   
- 
+      <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Programacion Orientada a Objetos &copy; Proyecto final 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+  
+<!--===============================================================================================-->  
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+  <script src="vendor/tilt/tilt.jquery.min.js"></script>
+  <script >
+    $('.js-tilt').tilt({
+      scale: 1.1
+    })
+  </script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>

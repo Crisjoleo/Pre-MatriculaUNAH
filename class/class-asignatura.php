@@ -39,7 +39,16 @@
 	
 
 
-		
+		static public function obtenerAsignaturas($conexion,$codigoDepartamento){
+
+          $resultado = $conexion->ejecutarConsulta("SELECT * FROM Asignatura where codigoDepartamento=".$codigoDepartamento."");
+            while (($fila= $conexion->obtenerFila($resultado))) {
+				
+				echo '<option value='.$fila['CODIGOASIGNATURA'].'>'.$fila['NOMBREASIGNATURA'].' </option>';
+			}
+
+		}
+
 
 	}
 

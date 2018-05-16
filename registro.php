@@ -5,23 +5,16 @@
 
   <head>
 
-   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <title>Registro Estudiante - UNAH</title>
-    
+    <link rel="icon" href="img/imgunah/logo.png" sizes="24x24" type="image/svg">
 
 
-
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
-    <script src="js/misFunciones.js"></script>
-
-<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css"> 
   <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
@@ -32,7 +25,10 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
 
+    <script src="js/misFunciones.js"></script>
 
   </head>
 
@@ -42,7 +38,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
 
-        <a class="navbar-brand" href="index.php">Universidad Nacional Autónoma de Honduras</a>
+        <a class="navbar-brand" href="index.php"><img src="img/imgunah/logo.png">Universidad Nacional Autónoma de Honduras</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,7 +61,9 @@
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                 <a class="dropdown-item" href="loginestudiante.php">Estudiante</a>
                 <a class="dropdown-item" href="logincatedratico.php">Catedrático</a>
-       
+        <!--        <a class="dropdown-item" href="portfolio-3-col.html"></a>
+                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a> -->
               </div>
            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -76,7 +74,7 @@
               </div>
             
 
-          
+     
               </div>
             </li>
           </ul>
@@ -106,7 +104,7 @@
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
           <!-- Embedded Google Map -->
-           
+          <img src="img/imgunah/todos-somos-puma.jpg" width="100%" height="300px">   
         </div>
         <!-- Contact Details Column -->
         <div class="col-lg-4 mb-4">
@@ -260,11 +258,15 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-
+        <p class="m-0 text-center text-white">Programacion Orientada a Objetos &copy; Proyecto final 2018</p>
       </div>
       <!-- /.container -->
     </footer>
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/jmfunciones.js"></script>
   </body>
 
 </html>

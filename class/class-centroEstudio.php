@@ -39,5 +39,14 @@
 
 
 
+		static public function obtenerCentros($conexion){
+
+          $resultado = $conexion->ejecutarConsulta('SELECT * FROM CentroEstudio');
+            while (($fila= $conexion->obtenerFila($resultado))) {
+				
+				echo '<option value='.$fila['CODIGOCENTROESTUDIO'].'>'.$fila['NOMBRECENTRO'].' </option>';
+			}
+
+		}
 	}
 ?>
